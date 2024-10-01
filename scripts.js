@@ -9,6 +9,19 @@ let index1 = 0;
 let index2 = 0;
 let index3 = 0; 
 
+window.addEventListener("load", function () {
+    var preloader = document.getElementById("preloader");
+
+    // Cria um novo objeto de imagem
+    var img = new Image();
+    img.src = "assets/Untitled image_2024.10.01.jpg";
+
+    // Quando a imagem for carregada, remova o preloader
+    img.onload = function() {
+        preloader.style.display = "none";
+    };
+});
+
 document.querySelector("form").addEventListener("submit", function(event) {
     event.preventDefault();
     sendData();
