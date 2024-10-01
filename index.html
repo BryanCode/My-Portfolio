@@ -12,18 +12,21 @@
         @keyframes zoom {
             0% {
                 background-size: 100% 100%;
+                background-position-x: 0;
             }
             50% {
                 background-size: 110% 110%;
+                background-position-x: -10%;
             }
             100% {
                 background-size: 100% 100%;
+                background-position-x: 0;
             }
         }
         
         /* Aplicando a animação ao header */
         header.zoom-background {
-            animation: zoom 30s ease-in-out infinite;
+            animation: zoom 60s ease-in-out infinite;
             background-position: center;
             background-repeat: no-repeat;
         }
