@@ -1,7 +1,7 @@
 const urlMack = "https://portfolio-1184f-default-rtdb.firebaseio.com/mackenzie";
 const actions = ["Desenvolvo ", "Crio "];
 const things = ["ideias ", "soluções "];
-const stacks = ["Spring", "MySQL", "JavaScript", "Bootstrap", "HTML", "CSS", "Firebase", "IA", "Java", "Wordpress", "SQL Server"];
+const stacks = ["Spring", "MySQL", "JavaScript", "Bootstrap", "HTML", "CSS", "Firebase", "SQL Server", "Java", "Wordpress", "Flutter"];
 const leftText = document.querySelector(".text-left");
 const rightText = document.querySelector(".text-right");
 const techText = document.querySelector(".tech-text");
